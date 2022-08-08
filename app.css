@@ -139,6 +139,9 @@ table {
     background: #005c99;
 }
 
+.navbar-brand mb-2 {
+    border-radius: 50%;
+}
 
 .main {
     width: 80%;
