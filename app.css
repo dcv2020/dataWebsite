@@ -134,19 +134,6 @@ table {
 
 
 
-.words p {
-    width: 95%;
-}
-
-.question p {
-    text-align: justify;
-}
-
-.side {
-    float: right;
-    max-width: 100%;
-}
-
 
 .header {
     margin-top: 5rem;
@@ -176,7 +163,6 @@ table {
     margin-bottom: 2%;
 }
 
-
 .legal {
     font-size: .75rem;
     margin-bottom: .5rem;
@@ -184,6 +170,21 @@ table {
 
 .bottom {
     background-color: white;
+}
+
+.join {
+    /* margin-top: 20%; */
+    transition: .25s;
+    border: 2px groove #087fc9;
+    color: white;
+    border-radius: 25px;
+}
+
+.join:hover {
+    cursor: pointer;
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 0.5em 0.5em -0.4em #000;
+    border: 2px groove #087fc9;
 }
 
 
@@ -194,6 +195,10 @@ ol {
     margin: auto;
     margin-bottom: 1em;
     line-height: 1.5em;
+}
+
+p b {
+    font-weight: 900;
 }
 
 body {
@@ -242,31 +247,10 @@ form {
 
 #indexJoin {
     margin-top: 20%;
-    transition: .25s;
-    border: 2px groove #087fc9;
-    color: white;
-    border-radius: 25px;
 }
 
-#indexJoin:hover {
-    cursor: pointer;
-    transform: translateY(-4px) scale(1.05);
-    box-shadow: 0 0.5em 0.5em -0.4em #000;
-}
-
-#contactJoin {
-    margin-top: 20%;
-    transition: .25s;
-    border: 2px groove #087fc9;
-    color: white;
-    border-radius: 20px;
-    margin-top: 30px;
-}
-
-#contactJoin:hover {
-    cursor: pointer;
-    transform: translateY(-4px) scale(1.05);
-    box-shadow: 0 0.5em 0.5em -0.4em #000;
+#addJoin {
+    padding: 7px;
 }
 
 #mainDiagram {
